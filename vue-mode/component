@@ -1,0 +1,29 @@
+# -*- mode: snippet -*-
+# name: component
+# key: component
+# --
+<template>
+  <div class="${1:component}">
+    TODO: $1
+  </div>
+</template>
+
+<style type="css">
+.$1 {
+  background: red;
+  color: white;
+}
+</style>
+
+<script>
+export default {
+  components: [],
+  data() {
+    return {}
+  },
+  computed: {
+  },
+  methods: {
+  },
+}
+</script>
